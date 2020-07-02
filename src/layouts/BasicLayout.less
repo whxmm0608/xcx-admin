@@ -1,0 +1,16 @@
+@import '~antd/es/style/themes/default.less';
+
+.left {
+  :global {
+    .ant-pro-sider-menu-sider {
+      position: fixed;
+    }
+    aside + .ant-layout:last-of-type {
+      margin-left: 256px;
+      .ant-layout-header{
+        display: none;
+      }
+    }
+  }
+}
+
